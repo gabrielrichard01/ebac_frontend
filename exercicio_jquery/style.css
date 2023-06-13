@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(177, 173, 173);
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1{
+    padding: 20px 0;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+form input{
+    padding: 8px;
+}
+
+form button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 182, 26);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul{
+    cursor: pointer;
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.completo{
+    text-decoration: line-through;
+}
