@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+header{
+    background-color: #aad8e6;
+    padding: 5px 0;
+}
+
+.imagem-header{
+    text-align: center;
+    width: 100%;
+}
+
+.imagem-header img{
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.link-header{
+    padding-bottom: 8px;
+}
+
+.link-header ul li{
+    margin: 0 auto;
+    list-style: none;
+    font-size: 20px;
+}
+
+.link-header ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.link-header ul li a:hover{
+    background-color: #0594c0;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 428px) {
+    .link-header ul li{
+        font-size: 16px;
+    }
+}
+
+.imagem-sobre{
+    margin: 40px 0;
+    width: 100%;
+}
+
+.imagem-sobre img{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+}
+
+.titulo-sobre{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titulo-sobre h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.titulo-sobre p{
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 428px) {
+    .titulo-sobre h1{
+        font-size: 30px;
+    }
+
+    .titulo-sobre p{
+        font-size: 20px;
+    }
+}
+
+.imagem-imovel{
+    width: 100%;
+}
+
+.imagem-imovel img{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.descricao-sobre{
+    text-align: justify;
+    margin: 25px 0;
+}
+
+.descricao-sobre p{
+    font-size: 20px;
+}
+
+.descricao-sobre span,
+.descricao-corretores span{
+    color: #2b75ff;
+    font-weight: bold;
+}
+
+#servicos,
+#contato{
+    background-color: #3a7af1;
+    padding: 50px 0;
+}
+
+.titulo-servicos,
+.titulo-contato{
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-servicos h2,
+.titulo-contato h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.titulo-servicos p{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.titulo-servicos span{
+    color: yellow;
+    font-weight: bolder;
+}
+
+ul{
+    margin: 0;
+}
+
+.lista-servicos{
+    width: 100%;
+}
+
+.lista-servicos ul{
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.lista-servicos span{
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .titulo-servicos p{
+        width: 100%;
+    }
+}
+
+#corretores{
+    margin: 50px 0;
+}
+
+.titulo-corretores,
+.titulo-pergunta{
+    text-align: center;
+}
+
+.titulo-corretores h2,
+.titulo-pergunta h2{
+    font-weight: bolder;
+    color: #2b75ff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.imagem-corretores{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.imagem-corretores img{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.descricao-corretores p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.formulario{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.formulario textarea{
+    resize: none;
+}
+
+.formulario label{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .formulario input,
+    .formulario textarea{
+        width: 100%;
+    }
+}
+
+#pergunta{
+    margin-bottom: 50px;
+}
+
+.titulo-pergunta h2{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: #aad8e6;
+    text-align: center;
+}
+
+footer p{
+    font-weight: bold;
+    color: #0594c0;
+    padding: 10px 0;
+}
+
+p{
+    margin-bottom: 0;
+}
