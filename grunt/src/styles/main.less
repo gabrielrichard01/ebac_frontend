@@ -1,0 +1,68 @@
+@fontPrincipal: arial, sans-serif;
+@fontTitulo: 'Righteous', cursive;
+@corDeFundo: #1e90ff;
+@corDeFundoDoBotao: #2ed573;
+
+
+body{
+    background-color: @corDeFundo;
+    font-family: @fontPrincipal;
+    color: #fff;
+}
+
+h1{
+    font-family: @fontTitulo;
+    font-size: 3em;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: @fontPrincipal;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDeFundoDoBotao;
+    color: #000;
+}
+
+input{
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 6px solid #fff;
+}
+
+select{
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 30px;
+    border: 15px double #fff;
+    display: none;
+
+    span{
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+        color: #000;
+    }
+}
